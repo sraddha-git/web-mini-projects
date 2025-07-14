@@ -1,0 +1,42 @@
+body{
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: rgba(98, 92, 197, 0.479);
+}
+.container{
+    background-color: wheat;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,.3 );
+    overflow: hidden;
+}
+.month-name{
+    margin: 0;
+    background-color:rgba(216, 139, 23, 0.363);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.day-name{
+    font-size: 20px;
+    color: rgb(211, 105, 55);
+}
+.day-number{
+    font-size: 40px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+.year{
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(211, 105, 55);
+    font-weight: 500px;
+
+}
